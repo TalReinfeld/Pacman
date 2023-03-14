@@ -71,11 +71,11 @@ You need to submit 3 screens with your exercise!
 If there are no files, a proper message would be presented when trying to start a new game.
 The menu should have a new option to allow running a specific screen, by name.
 The screen file should be a text file representing the screen, with:
-@ - for the position of the pacman (1 and only)
-$ - for the initial position of the ghosts (allow any number between 0 to 4)
-# - for walls
-% - for “empty” positions that should not have a breadcrumb
-& - for the position where the points and remaining lives information (“legend”) shall be presented, it is the responsibility of the screen designer (not of your program) to make sure that the & is placed in a position not accessible by the creatures. You may assume that the screen designer follows this instruction. The size of the actual printed legend shall be not more than 3 lines height * 20 characters.
+'@' - for the position of the pacman (1 and only)
+'$' - for the initial position of the ghosts (allow any number between 0 to 4)
+'#' - for walls
+'%' - for “empty” positions that should not have a breadcrumb
+'&' - for the position where the points and remaining lives information (“legend”) shall be presented, it is the responsibility of the screen designer (not of your program) to make sure that the & is placed in a position not accessible by the creatures. You may assume that the screen designer follows this instruction. The size of the actual printed legend shall be not more than 3 lines height * 20 characters.
 Note that the above chars are mandatory, even if you use other chars for drawing the board on screen. Note also that the file doesn’t contain breadcrumbs and you should add them yourself when drawing the screen.
 
 -There would be a text file with a list of steps for all creatures, per screen in a structure of your choice. The structure shall be concise, i.e. shall include only     change of movement directions and appearance / disappearance of a new Fruit. Name of file shall be in the format corresponding the screen name: pacman_*.steps (e.g.   pacman_01.steps)
