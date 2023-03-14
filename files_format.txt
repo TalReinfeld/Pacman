@@ -1,0 +1,28 @@
+Saving format:
+result file:
+A letter will represent what happened to the pacman 
+D- The pacman died
+N- The pacman moved to the next level
+L- The pacman lost the game
+W- The pacman won the game
+
+After that the time when it happened, and after that a dot.
+
+steps file:
+*In the first file it is indicated whether the game is saved in color or not - 1 with color, 0 without color
+A letter will represent the object
+p-pacman
+f-fruit
+g-ghost
+
+then the numbers that represent the moves of the object
+0-down
+1-up
+2-left
+3-right
+4-stay 
+
+*fruitי
+k-The fruit is killed
+r-The fruit is formed 
+right after that the time when it happened, and after the a dot, the value of the fruit, the X coordinate, a comma, the Y coordinate and another comma.
